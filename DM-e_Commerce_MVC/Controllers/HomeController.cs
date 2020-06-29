@@ -9,6 +9,8 @@ namespace DM_e_Commerce_MVC.Controllers
     public class HomeController : Controller
     {
         // GET: Home
+
+        //Test Bug-fix Branch
         public ActionResult Index()
         {
             return View();
