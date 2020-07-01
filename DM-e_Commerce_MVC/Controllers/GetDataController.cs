@@ -11,7 +11,7 @@ namespace DM_e_Commerce_MVC.Controllers
     {
 
         public string Get()
-        {
+        { 
 
             return "Test ";
         }
