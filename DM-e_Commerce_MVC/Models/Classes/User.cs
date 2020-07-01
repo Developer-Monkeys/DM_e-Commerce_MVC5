@@ -9,12 +9,12 @@ namespace DM_e_Commerce_MVC.Models.Classes
     public class User
     {
         [Key]
-        public int User_Id { get; set; }
-        public string User_Name { get; set; }
-        public string User_Surname { get; set; }
-        public string User_Mail { get; set; }
-        public string User_Password { get; set; }
-        public string User_Role { get; set; }
+        public int UserId { get; set; }
+        public string UserName { get; set; }
+        public string UserSurname { get; set; }
+        public string UserMail { get; set; }
+        public string UserPassword { get; set; }
+        public string UserRole { get; set; }
 
     }
 }

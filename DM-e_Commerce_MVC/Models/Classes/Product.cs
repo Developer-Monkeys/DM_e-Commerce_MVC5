@@ -9,12 +9,12 @@ namespace DM_e_Commerce_MVC.Models.Classes
     public class Product
     {
         [Key]
-        public int Product_Id { get; set; }
-        public string Product_Name { get; set; }
-        public int Product_Stock { get; set; }
-        public double Product_Price { get; set; }
-        public string Product_Seller { get; set; }
-        public string Product_Image { get; set; }
+        public int ProductId { get; set; }
+        public string ProductName { get; set; }
+        public int ProductStock { get; set; }
+        public double ProductPrice { get; set; }
+        public string ProductSeller { get; set; }
+        public string ProductImage { get; set; }
         public virtual Category Category { get; set; }
     }
 }
