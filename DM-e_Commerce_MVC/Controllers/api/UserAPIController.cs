@@ -38,7 +38,7 @@ namespace DM_e_Commerce_MVC.Controllers.api
         public IHttpActionResult DeleteUser(int id)                  //need ui 
         {
             var data = _cn.Users.Find(id);
-            if (data != null) data.UserRole = "0";                   //role set "0" for now 
+            if (data != null) data.UserRole = false;                   //role set "0" for now 
             _cn.SaveChanges();
 
             return Ok("Kullanıcı Başarıyla Silindi");

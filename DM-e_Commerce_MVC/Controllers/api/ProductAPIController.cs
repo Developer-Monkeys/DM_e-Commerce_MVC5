@@ -2,25 +2,33 @@
 using System.Linq;
 using System.Web.Http;
 using DM_e_Commerce_MVC.Models.Classes;
+using DM_e_Commerce_MVC.App_Start;
+using MongoDB.Driver;
+
 
 namespace DM_e_Commerce_MVC.Controllers.api
 {
     public class ProductApiController : ApiController
     {
         Context _cn= new Context();
+        private MongoDbContext dbContext;
+        private IMongoCollection<Product> pCollection;
 
         public List<Product> Get()
         {
             _cn.Configuration.ProxyCreationEnabled = false;          //Serialize the relation table
-
+            //dbContext = new MongoDbContex t(); ;
+            //pCollection = dbContext.db.GetCollection<Product>("eCommerce");
+            //List<Product> p = pCollection.AsQueryable<Product>().ToList();
             return _cn.Products.ToList();
+           //return p;
         }
 
         public Product Get(int id)
         {
             _cn.Configuration.ProxyCreationEnabled = false;
             var p = _cn.Products.Find(id);
-
+                
             return p;
         }
 
