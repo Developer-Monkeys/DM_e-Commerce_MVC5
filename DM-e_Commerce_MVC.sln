@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DM-e_Commerce_MVC", "DM-e_Commerce_MVC\DM-e_Commerce_MVC.csproj", "{13E57CBB-8557-4C84-9BB6-CEE3B3F09F67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{82CB3ECA-0C5F-406A-97A9-756444EA1724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{97DE0596-A41A-4BD2-8477-7CDCD0107159}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{13E57CBB-8557-4C84-9BB6-CEE3B3F09F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13E57CBB-8557-4C84-9BB6-CEE3B3F09F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13E57CBB-8557-4C84-9BB6-CEE3B3F09F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CB3ECA-0C5F-406A-97A9-756444EA1724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CB3ECA-0C5F-406A-97A9-756444EA1724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CB3ECA-0C5F-406A-97A9-756444EA1724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CB3ECA-0C5F-406A-97A9-756444EA1724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97DE0596-A41A-4BD2-8477-7CDCD0107159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97DE0596-A41A-4BD2-8477-7CDCD0107159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97DE0596-A41A-4BD2-8477-7CDCD0107159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97DE0596-A41A-4BD2-8477-7CDCD0107159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
