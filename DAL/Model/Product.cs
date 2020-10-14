@@ -9,9 +9,8 @@ using System.Threading.Tasks;
 namespace DAL.Model
 {
     public class Product
-    {
-
-        [Key]
+    { 
+        [Key] 
         public int ProductId { get; set; }
         [Column(TypeName = "varchar")]
         [StringLength(30)]

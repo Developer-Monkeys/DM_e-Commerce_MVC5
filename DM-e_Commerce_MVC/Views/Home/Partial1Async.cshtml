@@ -1,0 +1,11 @@
+﻿
+@model List<DAL.Model.Category>
+<table class="container">   
+    <tr style="margin:auto">
+        @foreach (var i in Model)
+        {
+            <td ><a style="color:black" href="#">@i.CategoryName</a></td>
+        }
+    </tr>
+</table>
+

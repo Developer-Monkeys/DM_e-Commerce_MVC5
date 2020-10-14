@@ -1,0 +1,26 @@
+﻿body {
+}
+.categories {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+    border:0px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+
+.active-pink input.form-control[type=text] {
+    border: 0px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+}
+
+.active-pink .fa, .active-pink-2 .fa {
+    color: black;
+}
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
